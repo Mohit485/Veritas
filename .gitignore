@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment / Dependencies
+venv/
+.venv/
+env/
+
+# Model Weights (Keep large .onnx files out of Git)
+weights/
+*.onnx
+
+# OS / IDE specific
+.DS_Store
+.idea/
+.vscode/
+
+# Local logs & output videos
+*.mp4
+*.avi
+logs/
